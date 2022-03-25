@@ -1,0 +1,30 @@
+*{
+    background-color: black;
+    color: white;
+}
+.headerfooter{
+    text-decoration: underline;
+    /* font-weight: 300; */
+    font-size: 300%;
+    text-align: center;
+}
+.contents{
+    border-style: dotted;
+    border-color: red;
+    background-image: linear-gradient(to right,black,red);
+    padding-left: 10px;
+}
+.texts{
+    background-image: linear-gradient(to right,black,red);
+}
+.redirect{
+    border-style: solid;
+    background-image: linear-gradient(to right, white,red);
+    border-radius: 10px;
+}
+.image{
+    border-radius: 25px 25px 25px 25px;
+    width: 100%;
+    margin: 5px;
+}
+
