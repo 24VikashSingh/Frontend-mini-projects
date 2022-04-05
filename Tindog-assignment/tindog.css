@@ -1,0 +1,142 @@
+
+.heading{
+    background-color: #ff4c68;
+    padding-top: 30px;
+    color: white;
+    position: relative;
+}
+.heading .nav-item{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.tindog{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.row h1{
+    padding-top: 15%;
+line-height: 1.5;
+font-weight: bolder;
+font-size: 3.5rem;
+}
+@media(max-width:1028px){
+    .heading .row{
+        text-align: center;
+    }
+    
+}
+.row button{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.iphone-img{
+    width: 55%;
+    transform: rotate(25deg);
+    padding-top: 2rem;
+    position: relative;
+}
+
+
+    @media(max-width: 1028px){
+        .iphone-img{
+            position: static;
+            transform: rotate(0);
+        }
+        
+    }
+.white{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-size: 2em;
+}
+.white .fa-solid{
+    font-size: 2em;
+    color: tomato;
+}
+.white .fa-solid:hover{
+    color: red;
+}
+.white p{
+    font-size: medium ;
+}
+.rimage{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+    vertical-align: middle;
+    color: white;
+}
+.middle{
+    text-align: center;
+    background-color: rgb(239, 68, 68);
+    padding: 40px;
+}
+.middle .carousel-item{
+    padding: 5% 15%;
+}
+.carousel-item h2{
+font-weight: bold;
+line-height: 1.5;
+font-size: 2rem;
+}
+.brandimg{
+    width: 17%;
+    margin: 20px 20px 50px;
+    padding-top: 30px;
+}
+.priceheading{
+    text-align: center;
+    margin-top: 20px;
+    text:center;
+    padding: 90px;
+}
+.priceheading h2,h1,h3{
+font-weight: bolder;
+font-size: 30px;
+}
+.priceheading ul li{
+    line-height: 220% ;
+}
+.secondlast{
+    text-align: center;
+    padding: 100px 15% 40px;
+    background-color: #ff4c68;
+    font-size: 6rem;
+    /* font-weight: 400; */
+    color: white;
+}
+.secondlast h1{
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.secondlast button{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+.social{
+    text-align: center;
+    padding: 100px 10% 15%;
+}
+.social .fa-brands,.fa-solid{
+    font-size: 30px;
+    padding: 20px;
+}
+.socialimg span:hover{
+    cursor: pointer ;
+    border-style: solid;
+    border-radius: 10%;
+    box-sizing: border-box;
+    font-size: 2em;
+
+
+}
+
