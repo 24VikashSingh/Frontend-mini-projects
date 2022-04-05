@@ -4,3 +4,4 @@
 * [Amazon-Card](https://24vikashsingh.github.io/Frontend-mini-projects/Amazon%20card/)
 * [Html-Form](https://24vikashsingh.github.io/Frontend-mini-projects/Html%20form/)
 * [Apple Assignment](https://24vikashsingh.github.io/Frontend-mini-projects/apple-assignment/)
+* [TinDog](https://24vikashsingh.github.io/Frontend-mini-projects/Tindog-assignment/)
