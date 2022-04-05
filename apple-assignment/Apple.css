@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(0, 255, 157);
+}
+section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.controls{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
+#wcolor{
+    color: white;
+}
+.photo-album ul{
+    display: flex;
+    justify-content: center;
+}
+.product__photo{
+    background-color: white;
+    height: 480px;
+    width: 300px;
+    position: relative;
+    left: 100px ;
+    top: 30px;
+    margin-top:50px ;
+    z-index: 2;
+    border-radius: 10px;
+}
+.photo-main{
+    background-color: greenyellow;
+    height: 400px;
+    width: 300px;
+    left: 20px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+}
+.greenapple{
+    position: relative;
+    right: 25%;
+}
+.greenapple:hover{
+    transform: scale(1.2);
+}
+.product__info{
+    background-color: white;
+    position: relative;
+    height: 540px;
+    width: 540px;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+    right: 100px;
+    margin-top: 50px;
+    z-index: 1;
+}
+.move{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.title{
+    line-height: 0.2;
+}
+.photo-album ul li{
+    display: inline;
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+    border: solid lightgray 1px;
+    border-radius: 5px;
+}
+.photo-album li,.variant li:hover{
+    cursor: pointer;
+}
+.variant li{
+    display: inline;
+}
+.greenselect{
+    box-sizing: border-box;
+    border: solid lightgray 2px;
+    border-radius: 5px;
+    padding: 2px;
+}
+.greenselect:hover{
+    transform: scale(1.5);
+}
+.price{
+    color: red;
+    margin-top: 40px;
+}
+.price span{
+    font-size: 40px;
+}
+.title span, .variant h3, .description h3{
+    color: gray;
+}
+.buy--btn{
+    background-color: rgb(241, 37, 61);
+    color: white;
+    height: 40px;
+    width: 135px;
+    border-radius: 7px;
+    border-color: white;
+}
+.buy--btn:hover{
+    cursor: pointer;
+}
+.variant ul li img{
+    height: 27px;
+    width: 27px;
+}
+.photo-album img{
+    height: 40px;
+    width: 40px;
+    left: 50px;
+}
+.photo-album li{
+    align-content: center;
+}
