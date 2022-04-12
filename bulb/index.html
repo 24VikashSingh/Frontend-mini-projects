@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Bulb ON/OFF</title>
+    <link rel="stylesheet" href="bulbstyle.css">
+    <Script>
+        var status=false
+        function bulbon(){
+            document.getElementById("imgbulb").src="https://www.w3schools.com/js/pic_bulbon.gif"
+        }
+         function bulboff(){
+            document.getElementById("imgbulb").src="https://www.w3schools.com/js/pic_bulboff.gif"
+        }
+        
+        function onoff(){
+            if(status==true){
+                document.getElementById("imgbulb2").src="https://www.w3schools.com/js/pic_bulboff.gif"
+                status=false
+            }
+            else{
+            document.getElementById("imgbulb2").src="https://www.w3schools.com/js/pic_bulbon.gif"
+            status=true
+            }
+        }
+
+    </Script>
+</head>
+<body>
+    <div class="two">
+        <img id="imgbulb" src="https://www.w3schools.com/js/pic_bulboff.gif"
+    <br>
+    <br>
+    <button class="on" onclick="bulbon()">ON</button>
+    <button class="off" onclick="bulboff()">OFF</button>
+    </div>
+    <div class="single">
+        <img id="imgbulb2" src="https://www.w3schools.com/js/pic_bulboff.gif"
+    <br>
+    <br>
+    <button class="onoff" onclick="onoff()">ON/OFF</button>
+    </div>
+</body>
+</html>

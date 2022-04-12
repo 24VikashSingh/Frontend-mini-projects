@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 223, 138);
+}
+.two,.single{
+height: 300px;
+width: 300px;
+background-color: rgb(19, 17, 19);
+text-align: center;
+padding:30px;
+margin: 100px;
+border-radius: 10px;
+}
+.on,.onoff{
+    background-color: aqua;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.off{
+    background-color: rgb(255, 0, 13);
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
