@@ -7,3 +7,4 @@
 * [TinDog](https://24vikashsingh.github.io/Frontend-mini-projects/Tindog-assignment/)
 * [Bulb](https://24vikashsingh.github.io/Frontend-mini-projects/bulb/)
 * [Galery-project](https://24vikashsingh.github.io/Frontend-mini-projects/galeryproject/)
+* [Calculator-project](https://24vikashsingh.github.io/Frontend-mini-projects/CalculatorProject/)
