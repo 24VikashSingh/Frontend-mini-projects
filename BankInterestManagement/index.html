@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Interest Management</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div id="heading">Interest Calculator</div>
+    <div class="bank-balance-display">
+        
+        <table >
+            <tr>
+                <th>Account Holder Name</th>
+                <th>Current Account Balance</th>
+                <th>Balance After Interest</th>
+            </tr>
+            <tr>
+                <td class="name">Vikash</td>
+                <td><input type="number" class="input-balance"></td>
+                <td><input type="number" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="name">Vineet</td>
+                <td><input type="number" class="input-balance"></td>
+                <td><input type="number" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="name">Waris</td>
+                <td><input type="number" class="input-balance"></td>
+                <td><input type="Number" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="name">Raju</td>
+                <td><input type="number" class="input-balance"></td>
+                <td><input type="number" class="display-updated-balance" disabled></td>
+            </tr>
+            <tr>
+                <td class="name">Rahul</td>
+                <td><input type="number" class="input-balance"></td>
+                <td><input type="number" class="display-updated-balance" disabled></td>
+            </tr>
+        </table>
+        <button onclick="CalculateInterest()">Calculate Net Balance</button>
+    </div>
+
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
